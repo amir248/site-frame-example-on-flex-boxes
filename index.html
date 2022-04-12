@@ -12,13 +12,13 @@
     }
     body{
       background:linear-gradient(rgba(255,255,0,0.3),rgba(0,0,255,0.3));
-      min-height:100vh;
+      min-height:100vh;// вытянуть на всю длину с верху в низ.
       font-size:20px;
     }
     main{
       display:flex;
       justify-content:center;
-      align-items:flex-start;
+      align-items:flex-start; // на этом уровне aside
       max-width:100%;
     }
     article{
@@ -37,6 +37,7 @@
       position:sticky;
       top:0;
       width:300px;
+      max-width:100%;
       background:rgba(255,0,0,0.3);
       flex-direction:column;
     }
